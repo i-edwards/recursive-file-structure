@@ -1,0 +1,17 @@
+{
+    "name": "i-edwards/recursive-file-structure",
+    "type": "project",
+    "require": {
+        "php":   "^8.4",
+        "ext-pdo": "*",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
